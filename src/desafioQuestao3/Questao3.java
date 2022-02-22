@@ -6,6 +6,7 @@ public class Questao3 {
 		char[] ch1 = s1.toCharArray();
 		char[] ch2 = s2.toCharArray();
 		
+		
 		Arrays.sort(ch1);
 		Arrays.sort(ch2);
 		
@@ -30,8 +31,8 @@ public class Questao3 {
 }
 
 	public static void main(String[] args) {
-		    String palavra1 = "ifailuaifhkqq";
-	        String palavra2 = "q";
-	        System.out.print(countAnagramas(palavra1, palavra2));
+		    String palavra1 = "arara";
+	        String palavra2 = "ar";
+	        System.out.print("Quantidade de Anagramas é igual: " + countAnagramas( palavra1, palavra2));
 	}
 }
